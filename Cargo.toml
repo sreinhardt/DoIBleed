@@ -1,0 +1,24 @@
+[package]
+name = "doibleed"
+version = "0.1.0"
+authors = ["Spenser Reinhardt <spenserreinhardt@gmail.com>"]
+
+
+[[bin]]
+name = "doibleed"
+path = "src/bin.rs"
+
+[features]
+real_flag = []
+
+[dependencies]
+pretty_env_logger = "*"
+log = "*"
+rand = "*"
+bytes = "0.4.6"
+bitlab = "^0.8"
+futures = "^0.1"
+state_machine_future = "^0.1"
+tokio = "^0.1"
+tokio-core = "^0.1"
+mio = "^0.6"
